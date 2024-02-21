@@ -155,6 +155,7 @@ int main (){// inicio da classe do programa.
 	printf("\t1 - Registro do usuario \n");
 	printf("\t2 - consultar usuario \n");
 	printf("\t3 - Deletar usuario: \n\n");
+	printf("\t4 - fechar menu \n");
 	printf("OPIÇÃO: " );// fim do menu
 
 	scanf("%d", &opcao);//comando para solicitar uma resposta a ser armazenadana variavel
@@ -182,6 +183,15 @@ int main (){// inicio da classe do programa.
 				deletar();
 
 
+			break;
+			
+			
+			case 4:
+				
+				printf("até a proxima ! \n");
+				return 0;
+				
+					
 			break;
 
 			default: 
